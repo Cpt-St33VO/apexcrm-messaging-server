@@ -1,20 +1,3 @@
-Robot
-Hey Stefan, Quick input needed :
-Ask QuestionAgent will continue working after your reply
-
-Perfect! 🎉
-📋 STEP 2: Upload Server Code to GitHub
-
-Now we'll add the 3 server files using GitHub's web interface (easiest way):
-
-    On your new GitHub repo page, you should see a section that says "Get started by creating a new file" or similar
-
-    Click "creating a new file" or the "+" button → "Create new file"
-
-    First file - Name it: package.json
-
-    Copy and paste this content:
-
 {
   "name": "apexcrm-messaging-server",
   "version": "1.0.0",
