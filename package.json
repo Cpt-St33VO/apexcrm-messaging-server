@@ -1,0 +1,40 @@
+Robot
+Hey Stefan, Quick input needed :
+Ask QuestionAgent will continue working after your reply
+
+Perfect! 🎉
+📋 STEP 2: Upload Server Code to GitHub
+
+Now we'll add the 3 server files using GitHub's web interface (easiest way):
+
+    On your new GitHub repo page, you should see a section that says "Get started by creating a new file" or similar
+
+    Click "creating a new file" or the "+" button → "Create new file"
+
+    First file - Name it: package.json
+
+    Copy and paste this content:
+
+{
+  "name": "apexcrm-messaging-server",
+  "version": "1.0.0",
+  "description": "Socket.io messaging server for ApexCRM",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "dependencies": {
+    "socket.io": "^4.7.5",
+    "express": "^4.18.2",
+    "cors": "^2.8.5",
+    "helmet": "^7.1.0",
+    "firebase-admin": "^12.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
